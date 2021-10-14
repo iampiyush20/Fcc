@@ -1,0 +1,79 @@
+body{
+background-image:url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+background-repeat:no-repeat;
+color:white;
+box-sizing:border-box;
+}
+
+
+label {
+  font-size:18px;
+  /* margin-bottom: 0.5rem; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container{
+border:1px solid transparent;
+color:white;
+background:darkblue;
+border-radius:5px;
+margin:20px;
+padding:20px;
+}
+input[type="text"]{
+width:90%;
+height:32px;
+border-radius: 8px;
+padding:10px;
+}
+input[type="email"]{
+  border-radius: 8px;
+  padding:10px;
+width:90%;
+height:32px;
+}
+input[type="number"]{
+  border-radius: 10px;
+  padding:10px;
+width:90%;
+height:32px;
+}
+
+select{
+  padding:10px;
+  border-radius: 10px;
+width:90%;
+height:40px;
+}
+
+
+select:focus{
+min-width:50%;
+width:auto;
+}
+.text-area-container{
+  display:flex;
+  justify-content:center;
+  margin:0 0 8px 0;
+}
+textarea{
+width:90%;
+height:100px;
+
+
+border-radius: 10px;
+padding:10px;
+}
+
+
+
+input[type="button"] {
+   padding:16px;
+   background-color: aqua;
+   width:50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:auto;
+}
+
+
